@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My personal developer portfolio">
+  <title>My Portfolio | Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#home" class="logo">Dev<span>Portfolio.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Mahyavanshi Priyank</span></h1>
+        <h2>I'm a <span id="typing">Web Developer</span></h2>
+        <p class="hero-description">
+          I build beautiful, responsive and user-friendly websites
+          using modern web technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/mahyavanshipriyank-cmd" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          
+        </div>
+      </div>
+
+      
+<div class="hero-image">
+    <div class="simple-profile">
+        <div class="profile-icon">
+            <span>MP</span>
+        </div>
+
+        <h3>Web Developer</h3>
+        <p>Creative Thinker | Problem Solver</p>
+
+        <div class="profile-line"></div>
+
+        <div class="profile-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <section class="section about" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-content">
+        <div class="about-icon">💻</div>
+        <div>
+          <h3>I'm a passionate web developer.</h3>
+          <p>
+            Hello! I'm a developer who enjoys creating websites
+            that look great and work smoothly on every device.
+            I love learning new technologies, solving problems,
+            and turning creative ideas into real projects.
+          </p>
+          <p>
+            My current focus is HTML, CSS, JavaScript and
+            building accessible, responsive web experiences.
+          </p>
+          <a href="#contact" class="btn primary">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML5</h3>
+          <p>Semantic website structure</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS3</h3>
+          <p>Responsive and modern design</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>Interactive web experiences</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">📱</div>
+          <h3>Responsive Design</h3>
+          <p>Mobile-first layouts</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one">🌐</div>
+          <div class="project-info">
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio to showcase my work and skills.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="#contact" class="project-link">Ask about this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-two">🌦️</div>
+          <div class="project-info">
+            <h3>Weather App</h3>
+            <p>A weather app concept for displaying current conditions.</p>
+            <div class="tags">
+              <span>JavaScript</span><span>API</span>
+            </div>
+            <a href="#contact" class="project-link">Ask about this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-three">🛍️</div>
+          <div class="project-info">
+            <h3>E-commerce UI</h3>
+            <p>A clean storefront concept with product cards and navigation.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>UI Design</span>
+            </div>
+            <a href="#contact" class="project-link">Ask about this project ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <p class="contact-description">
+        Have an idea or opportunity? I'd love to hear from you.
+      </p>
+
+      <form id="contactForm" class="contact-form">
+        <div class="form-row">
+          <input type="text" id="name" placeholder="Your Name"
+            aria-label="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email"
+            aria-label="Your Email" required>
+        </div>
+        <input type="text" id="subject" placeholder="Subject"
+          aria-label="Subject" required>
+        <textarea id="message" rows="6" placeholder="Your Message"
+          aria-label="Your Message" required></textarea>
+        <button class="btn primary" type="submit">Send Message ↗</button>
+        <p id="formStatus" class="form-status" role="status"></p>
+      </form>
+      <p class="email-note">
+        Or email me directly:
+        <a id="emailLink" href="mailto:mahyavansipriyank@gmail.com">.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">Dev<span>Portfolio.</span></a>
+    <p>Designed and built with ❤️ using HTML, CSS & JavaScript.</p>
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
